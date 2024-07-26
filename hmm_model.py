@@ -159,7 +159,7 @@ class HMM:
         return predicted_labels
 
 # Our path
-file_path = "BBM411-AIN411_Assignment2_Q3_TrainingDataset.tsv"
+file_path = "TrainingDataset.tsv"
 
 sequences, labels = read_tsv(file_path)
 
